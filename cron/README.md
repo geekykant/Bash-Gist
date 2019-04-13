@@ -17,6 +17,7 @@ Setup Cron job as per the command
 # │ │ │ │ │ 
 # * * * * * command_to_execute
 ```
+(<a href="https://crontab.guru">simple cron editor</a>)
 
 To schedule for every minute,
 ```
