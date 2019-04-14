@@ -24,3 +24,16 @@ To download complete website html only,
 ```
 $ wget -m www.ktustudy.in
 ```
+
+### c. Piping & Grep
+Piping takes the raw output into the next command. Grep filters output text with matched pattern.
+```bash
+$ cat *.html | grep "Secret"  #prints all line containing 'Secret'
+```
+
+### d. Sed (Stream Editor)
+Performs searching, find and replace, insertion or deletion.
+```bash
+$ sed -i 's/old-text/new-text/g' input.txt.
+$ cat *.html | sed 's/yooo/yasss/g' .   #replaces yooo with yasss
+```
