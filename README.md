@@ -1,12 +1,19 @@
 # Bash Guide (Handy guide for Dev)
 
-### a. [Crontab](cron/README.md)
+
+### a. Reading input
+```bash
+$ read var_name  #asks to input variable value
+$ echo $var_name
+```
+
+### b. [Crontab](cron/README.md)
 Schedule automatically running jobs/scripts for the system background.
 ```bash
 $ crontab -e  #create new cronjob
 ```
 
-### b. Wget
+### c. Wget
 Download basically anything and everything on web.
 ```bash
 $ wget -m -p -E -k www.example.com
