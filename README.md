@@ -5,6 +5,7 @@
 ```bash
 $ read var_name  #asks to input variable value
 $ echo $var_name
+$ echo "Hello, $var_name"
 ```
 
 ### b. [Crontab](cron/README.md)
