@@ -39,7 +39,18 @@ Piping takes the raw output into the next command. Grep filters output text with
 $ cat *.html | grep "Secret"  #prints all line containing 'Secret'
 ```
 
-### d. Sed (Stream Editor)
+### d. Piping as input for program
+```bash
+$ python -c "print 'kelox'" | python name.py 
+What's your name? 
+Welcome, kelox
+
+$ echo solo | python name.py 
+What's your name? 
+Welcome, solo
+```
+
+### e. Sed (Stream Editor)
 Performs searching, find and replace, insertion or deletion.
 ```bash
 $ sed -i 's/old-text/new-text/g' input.txt.
